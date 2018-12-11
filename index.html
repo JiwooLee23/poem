@@ -2,14 +2,61 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>jQuerydemo</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h2>I'm Nobody! Who are You!</h2>
-    <h4> Emily Dickinson </h4>
+    <div id="whoareyou"> <h1>I am nobody!<br> Who are you?</h1></div>
+    <h4 id="cosolelogme">Inspect, console me</h4>
   </body>
   <script>
+// //   $("document").ready(function(){
+// //     var myDiv = $("#random");
+// //     var clicks = 1;
+// //
+// //
+// //   // myDiv.append("<h1>Hello Globe</h1>")
+// //   myDiv.css ({"color" : "red"})
+// //
+// //   myDiv.click(function(){
+// //     // console.log("I've been clicked")
+// //     $("#random").append(" " + clicks + " times");
+// //     clicks = clicks + 1
+// //   })
+// // })
+//
+//
+//
+//   $("document").ready(function(){
+//     var myDiv = $("#random");
+//     var index = 0;
+//     var words = ["wow", "cool", "Yes"]
+//
+//     myDiv.css ({"color" : "red"})
+//     myDiv.click(function(){
+//       if(index < words.length){
+//       $("body").append("<div class='words'>" + words[index] + "</div>");
+//       index++
+//     }
+//   })
+// })
+
+
+
+  // myDiv.append("<h1>Hello Globe</h1>")
+//   myDiv.css ({"color" : "red"})
+//
+//   myDiv.click(function(){
+//     // console.log("I've been clicked")
+//     $("#random").append(" " + clicks + " times");
+//     clicks = clicks + 1
+//   })
+// })
+
+
+  // $("#random").html("<h1>hello globe</h1>")
+  // $("#random").css({"color" : "green"});
   // var name = "JiwooLee";
   // var age = "21";
   // var isAlive = true;
@@ -194,6 +241,42 @@
    console.log (spacing)
   var end = "                                                -The End-"
     console.log (end)
+
+  // var id;
+  // id="hello"
+  // console.log(id);
+  //
+  // id=27
+  // console.log(id);
+
+  // var name = "callil" // string
+  // var age= 10; // integer
+  // var cost = 1.25; // float
+  // var isAlive =true // boolean
+
+//you can add comments like this in order to help your understanding this would be ignored.
+  // if (age > 21 && name =="callil"){
+  //   console.log ("older than 21")
+  // } else {
+  //   console.log("younger than 21")
+  // }
+
+  var names = ["Jiwoo", "Tina", "Jo"]
+  // console.log(names)
+  // for(var i=0; i < names.length; i++){
+  //   console.log (names[i])
+  // }
+ // var i = 0;
+ //i represents index
+ // names[1]
+  var index = 0; //set up variable
+
+  while(index < names.length){
+   console.log(names[index] + " index is:" + index);
+   index = index + 1;
+ }
+
+
 
 
 
